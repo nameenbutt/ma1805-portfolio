@@ -9,7 +9,7 @@ function draw() {
   ellipse(200,200,100,100)
   beginshape ()
   curveVertex (100,100)
-  end
+  endShape( )
 
 
 }
