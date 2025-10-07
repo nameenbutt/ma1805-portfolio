@@ -8,5 +8,8 @@ function draw() {
   fill(255,182,193)
   ellipse(250,250,250,250)
 
+  circle(40,40,40)
+  fill(40,40,40)
+
 
 }
