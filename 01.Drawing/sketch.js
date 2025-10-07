@@ -7,6 +7,9 @@ function draw() {
   circle(200,200,200)
   fill(255,182,193)
   ellipse(200,200,100,100)
+  beginshape ()
+  curveVertex (100,100)
+  end
 
 
 }
