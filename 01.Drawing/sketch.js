@@ -11,7 +11,7 @@ function draw() {
   //center circle (middle)
   fill(0)
   nostroke();
-  ellipse(width/2, height,2,20,20);
+  ellipse(width/2, height,2,20,20);// black circle
 
   //small circles inside the big one
   let sma11R = 10;
