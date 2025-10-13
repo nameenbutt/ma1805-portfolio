@@ -9,7 +9,6 @@ function draw() {
   ellipse(250,250,250,250)
 
   circle(-40,20,-30) 
-  fill(40,20,30)
 
 
 }
