@@ -11,9 +11,9 @@ function draw() {
    fill(200, 162, 200);   
   ellipse(200, 200, 100, 100);
 
-   fill(200, 162, 200);        
-  ellipse(200, 200, 100, 100);
-  x = x + 2; // Move to the right by 2 pixels per frame
+
+  fill(0);                    
+  ellipse(200, 200, 10, 10);  // Tiny black circle in the center
 
   //center circle (middle)
   fill(0)
