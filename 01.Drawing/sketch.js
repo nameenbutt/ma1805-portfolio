@@ -8,6 +8,9 @@ function draw() {
   fill(255,182,193)
   ellipse(250,250,250,250)
 
+   fill(200, 162, 200);   
+  ellipse(200, 200, 100, 100);
+
   //center circle (middle)
   fill(0)
   nostroke();
