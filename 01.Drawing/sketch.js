@@ -15,6 +15,6 @@ function draw() {
 
   //small circles inside the big one
   let sma11R = 10;
-  ellipse(X,y, sma11R * 2, sma11R * 2);
+  ellipse(x,y, sma11R * 2, sma11R * 2);
 
 }
