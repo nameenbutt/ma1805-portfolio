@@ -1,2 +1,2 @@
 # ma1805-portfolio
-Hello!
+Drawing promptweek 2 (emoji): 
