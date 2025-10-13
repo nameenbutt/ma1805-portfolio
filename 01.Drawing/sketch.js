@@ -11,6 +11,9 @@ function draw() {
    fill(200, 162, 200);   
   ellipse(200, 200, 100, 100);
 
+   fill(200, 162, 200);        
+  ellipse(200, 200, 100, 100);// Draw circle at (x, 200)
+
   //center circle (middle)
   fill(0)
   nostroke();
