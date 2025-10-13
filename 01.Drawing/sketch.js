@@ -13,5 +13,8 @@ function draw() {
   nostroke();
   ellipse(width/2, height,2,20,20);
 
+  //small circles inside the big one
+  let sma11R = 10;
+  ellipse(X,y, sma11R * 2, sma11R * 2);
 
 }
