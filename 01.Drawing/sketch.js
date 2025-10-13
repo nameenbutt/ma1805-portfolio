@@ -8,7 +8,10 @@ function draw() {
   fill(255,182,193)
   ellipse(250,250,250,250)
 
-  circle(-40,20,-30) 
+  //center circle (middle)
+  fill(0)
+  nostroke();
+  ellipse(width/2, height,2,20,20);
 
 
 }
