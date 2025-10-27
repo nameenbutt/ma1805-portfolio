@@ -2,7 +2,7 @@ function setup() {
 createCanvas(400,400)
 }
 
-function draw() {}
+function draw() {
   background(220);
   circle(250,250,250);
   fill(255,182,193)
@@ -12,4 +12,4 @@ function draw() {}
   ellipse(200, 200, 100, 100);
 
 
-
+}
