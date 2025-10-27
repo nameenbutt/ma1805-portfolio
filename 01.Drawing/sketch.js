@@ -22,6 +22,11 @@ function draw() {
     ellipse(285,200,20,20);//left pupil
     ellipse(315,200,20,20);//right pupil
 
+    //two small black circles(pupils)
+    fill(0);//black color
+    ellipse(285,200,20,20);//left pupil
+    ellipse(315,200,20,20);//right pupil
+
     //smile
     noFill();
     stroke(0);//black color
