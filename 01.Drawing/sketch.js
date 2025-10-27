@@ -11,17 +11,12 @@ function draw() {
    fill(200, 162, 200);   
   ellipse(200, 200, 100, 100);
 
+//eyes
+  fill(0);
+  circle(50,50,50);
+  circle(50,50,50);
 
-  fill(0);                    
-  ellipse(200, 200, 10, 10);  // Tiny black circle in the center
-
-  //center circle (middle)
-  fill(0)
-  nostroke();
-  ellipse(width/2, height,2,20,20);// black circle
-
-  //small circles inside the big one
-  let sma11R = 10;
-  ellipse(x,y, sma11R * 2, sma11R * 2);
-
+  //mouth
+  fill(0,255,0,255)
+  ellipse(150,250,200,200);
 }
