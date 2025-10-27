@@ -15,7 +15,7 @@ function draw() {
 
   //ellipse on the right side 
   fill(200,162,200);
-  ellipse(width -200,200,100,100);
+  ellipse(width -200,200,-100,100);
 
 
 }
