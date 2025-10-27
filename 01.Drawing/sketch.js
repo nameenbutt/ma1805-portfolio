@@ -15,7 +15,7 @@ function draw() {
 
   //ellipse on the right side 
   fill(200,162,200);
-  ellipse(400 - 200, 200, 100, 100);
+    ellipse(300, 200, 100, 100);  // moved from (200, 200) to (300, 200)
 
 
 }
