@@ -17,5 +17,15 @@ function draw() {
   fill(200,162,200);
     ellipse(300, 200, 100, 100);  // moved from (200, 200) to (300, 200)
 
+    //two small black circles(pupils)
+    fill(0);//black color
+    ellipse(285,200,20,20);//left pupil
+    ellipse(315,200,20,20);//right pupil
+
+    //smile
+    noFill();
+    stroke(0);//black color
+    strokeWeight(5);
+    arc (300,350,50,50,0,PI);//smile
 
 }
