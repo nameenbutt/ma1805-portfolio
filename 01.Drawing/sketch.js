@@ -12,14 +12,14 @@ function draw() {
 //ellipse on the left side
    fill(200, 162, 200);   
   ellipse(200, 200, 100, 100);
-   //two small black circles(pupils)
+   // LEFT pupil inside left eye
     fill(0);//black color
     ellipse(285,200,20,20);//left pupil
 
   //ellipse on the right side 
   fill(200,162,200);
     ellipse(300, 200, 100, 100);  // moved from (200, 200) to (300, 200)
-    //two small black circles(pupils)
+    // RIGHT pupil inside right eye
     fill(0);//black color
     ellipse(315,200,20,20);//right pupil
 
