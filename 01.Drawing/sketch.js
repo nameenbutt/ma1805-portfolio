@@ -8,8 +8,14 @@ function draw() {
   fill(255,182,193)
   ellipse(250,250,250,250)
 
+
+//ellipse on the left side
    fill(200, 162, 200);   
   ellipse(200, 200, 100, 100);
+
+  //ellipse on the right side 
+  fill(200,162,200);
+  ellipse(width -200,200,100,100);
 
 
 }
