@@ -11,5 +11,5 @@ function draw() {}
    fill(200, 162, 200);   
   ellipse(200, 200, 100, 100);
 
-//eyes
+
 
