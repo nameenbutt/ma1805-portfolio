@@ -27,10 +27,20 @@ function draw() {
     ellipse(285,200,20,20);//left pupil
     ellipse(315,200,20,20);//right pupil
 
+    // --- Silly mouth ---
+  fill(0); // black for mouth
+  ellipse(250, 300, 100, 50); // big oval mouth
+  
+  // --- Tongue inside ---
+  fill(255, 100, 100); // reddish-pink
+  ellipse(250, 315, 50, 25); // tongue sticking out a bit
+
     //smile
     noFill();
     stroke(0);//black color
     strokeWeight(5);
     arc (300,350,50,50,0,PI);//smile
+
+
 
 }
