@@ -1,24 +1,18 @@
-function setup() {
-  createCanvas(500, 500);
-}
+
 
 function draw() {
   background(220);
 }
 
-function draw() {
-  background(220);
-}
-
-let plants = {};
+let plants = [];
 
 function setup() {
   createCanvas(500,500);
-  nostroke();
+  noStroke();
 
   //create several plants at random positions
   for (let i = 0; i < 8; i++) {
-    plants, push(new plants(random(width, height - 50, random(30,80))));
+    plants.push(new plants(random(width, height - 50, random(30,80))));
 
   }
 }
@@ -77,7 +71,7 @@ let sway = sin(this.angle) * 10;
 //draw stem 
 stroke(80,200,100);
 strokeWeight(3);
-nofill();
+noFill();
 beginshape ();
 for (let i =0; i < this.growth; i+=5){
   let x = sin(this.angle + i * 0.05) * 5; // bend slightly
