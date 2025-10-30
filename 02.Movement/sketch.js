@@ -90,5 +90,5 @@ for (let i =0; i < this.growth; i+=5){
  ellipse (sway + 10, -this.growth /2, 10, 6);
  }
 
-}
+  }
 }
