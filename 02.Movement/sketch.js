@@ -1,15 +1,12 @@
-
+function setup() {
+  createCanvas(500,500);
+  noStroke();
 
 function draw() {
   background(220);
 }
 
 let plants = [];
-
-function setup() {
-  createCanvas(500,500);
-  noStroke();
-
   //create several plants at random positions
   for (let i = 0; i < 8; i++) {
     plants.push(new plants(random(width, height - 50, random(30,80))));
@@ -34,13 +31,13 @@ function draw() {
   text("🌿 Digital Garden 🌿", width / 2, 30);
 
   //draw the soil at the bottom
-  function drawground() {
-    fill(40,25,25);
+  function drawGround() {
+    fill(40,25,15);
     rect(0, height - 50, width, 50);
   }
 
-  //plant class
-  class plant {
+  //Plant class
+  class Plant {
     constructor(x, y, h) {
       this.x = x;
       this.y = y;
@@ -89,6 +86,8 @@ for (let i =0; i < this.growth; i+=5){
  ellipse (sway - 10, -this.growth / 2, 10, 6);
  ellipse (sway + 10, -this.growth /2, 10, 6);
  }
+
+  
 
   }
 }
