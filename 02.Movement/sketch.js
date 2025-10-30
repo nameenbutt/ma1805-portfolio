@@ -25,7 +25,7 @@ function setup() {
 
 function draw() {
   background(20,30,40); // night sky feel 
-  drawground();
+  drawGround();
 
   //draw each plant
   for (let plant of plants) {
@@ -42,7 +42,7 @@ function draw() {
   //draw the soil at the bottom
   function drawground() {
     fill(40,25,25);
-    rect(0, height - 50, wifth, 50);
+    rect(0, height - 50, width, 50);
   }
 
   //plant class
