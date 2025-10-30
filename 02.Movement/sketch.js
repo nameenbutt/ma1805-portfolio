@@ -37,7 +37,7 @@ function draw() {
   fill(220);
   textAlign(CENTER);
   textSize(16);
-  text("A Digital Garden", width / 2, 30);
+  text("🌿 Digital Garden 🌿", width / 2, 30);
 
   //draw the soil at the bottom
   function drawground() {
