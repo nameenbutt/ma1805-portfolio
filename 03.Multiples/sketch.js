@@ -1,39 +1,16 @@
 function setup() {
-  createCanvas(600, 300);
+  createCanvas(600, 400);
   noStroke();
+  rectMode(CENTER);
 }
+ function draw () {
+background(0);
 
-//Make 20 circles and store their info in an array
-for (let i = 0; i < 20; i++) 
-  circles.push
-({
-  x: i* 30+20 // position across the screen
-  , y: height / 2 // all start in the middle
-  , size: random (15, 30) // small varaition
-  , color: color(random(100,255), random (100,255), random (255)) 
-});
-
-let circles = [];
-
-
-function draw() {
-  background(20);
-
-  //loop through every circle
-  for (let i = 0; i < circles.length; i++) {
-    let.c = circle [i];
-    let offset = sin(frameCount * 0.05 + i) * 20;
-    fill(c.color);
-    ellipse(c.x, c.y + offset, c.size);
-  }
-
-  fill(255);
-  textAlign(CENTER);
-  text("Repition with variation - circles move up and down", width/2, height - 10);
-}
+//Number of columns and rows 
+let cols = 10;
+let rows = 8;
 
 
 
-{
 
 }
