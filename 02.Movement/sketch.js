@@ -1,12 +1,4 @@
-function setup() {
-  createCanvas(400,400);
-}
-
-  function draw() {
-    background(220);
-  }
-
-  let plants = [];
+let plants = [];
 
   function setup() {
     createCanvas(500, 500);
