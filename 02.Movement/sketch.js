@@ -51,7 +51,6 @@ function setup() {
     this.growth = 0; // how much it has grown
     this.angle = random(TWO_PI); // for swaying
     this.color = color(random(50,100), random(150,255), random(50,150));
-  }
  }
 
  update() {
@@ -67,6 +66,7 @@ this.angle += 0.02;
  display() {
  push();
  translate(this.x, this.y);
+ 
 
  //stem away motion 
  let sway = sin(this.angle) * 10;
@@ -80,10 +80,20 @@ this.angle += 0.02;
   let x= sin(this.angle + i * 0.05) * 5; // bend slightly
   vertex(x, -i);
  }
- }
+ 
  endshape();
 
  //draw flower at the top
  noStroke();
  fill(this.color);
  ellipse(sway - 10, -this.growth, 15,25);
+
+ //leaves
+ fill(70,180,90);
+ ellipse(sway -10, -this.growth /2,10,6);
+ ellipse(sway +10, -this.growth /2, 10,6);
+
+ pop();
+}
+}
+}
