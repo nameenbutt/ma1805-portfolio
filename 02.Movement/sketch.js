@@ -54,4 +54,18 @@ function setup() {
   }
  }
 
+ update() {
+  //slowly grow to full height
+  if (this.growtj < this.h) {
+    this.growth += 0.3;
+}
+
+//gentle side-to-side sway
+this.angle += 0.02;
+ }
+
+ display() {
+ push();
+ translate(this.x, this.y);
+ }
  }
