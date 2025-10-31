@@ -29,6 +29,10 @@ function draw() {
     fill(c.color);
     ellipse(c.x, c.y + offset, c.size);
   }
+
+  fill(255);
+  textAlign(CENTER);
+  text("Repition with variation - circles move up and down", width/2, height - 10);
 }
 
 
