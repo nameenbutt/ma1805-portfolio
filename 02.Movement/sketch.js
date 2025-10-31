@@ -21,7 +21,6 @@ function setup() {
  
   function draw() {
     background(20,30, 40); // night sky feel
-
     drawGround();
 
     //draw each plant 
