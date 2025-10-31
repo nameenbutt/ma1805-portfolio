@@ -67,5 +67,23 @@ this.angle += 0.02;
  display() {
  push();
  translate(this.x, this.y);
+
+ //stem away motion 
+ let sway = sin(this.angle) * 10;
+
+ //draw stem
+ stroke(80,200,100);
+ strokeWeight(3);
+ noFill();
+ beginShape();
+ for (let i =0; i < this.growth; i += 5) {
+  let x= sin(this.angle + i * 0.05) * 5; // bend slightly
+  vertex(x, -i);
  }
  }
+ endshape();
+
+ //draw flower at the top
+ noStroke();
+ fill(this.color);
+ ellipse(sway - 10, -this.growth, 15,25);
