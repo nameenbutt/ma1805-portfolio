@@ -14,7 +14,11 @@ let rows = 8;
 for (let i = 0; i <cols; i++) {
   for (let j = 0; j < rows; j++) {
 
-// calculate x and y position for each square
+// calculate x and y position for each square 
+let x = i * 60 + 30;
+let y = j * 50 + 25;
+
+
 }
 }
  }
