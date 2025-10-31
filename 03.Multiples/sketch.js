@@ -22,10 +22,7 @@ function draw() {
   //loop through every circle
   for (let i = 0; i < circles.length; i++) {
     let.c = circle [i];
-
-    //move each circle up and down a bit 
     let offset = sin(frameCount * 0.05 + i) * 20;
-
     fill(c.color);
     ellipse(c.x, c.y + offset, c.size);
   }
