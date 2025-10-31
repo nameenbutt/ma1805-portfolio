@@ -23,6 +23,25 @@ function setup() {
 
     drawGround();
 
-    
-  }
-}
+    //draw each plant 
+    for (let plant of plants) {
+      plant.update();
+      plant.display();
+    }
+
+    //add a gentle title 
+    fill(220);
+    textAlign(CENTER);
+    textSize(16);
+    text("Digital Garden", width / 2, 30);
+ }
+
+ //draw soil at bottom
+ function drawGround() {
+  fill(40,25,15);
+  rect(0, height - 50, width, 50);
+ }
+
+ // Plant class
+
+ }
