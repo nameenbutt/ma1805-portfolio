@@ -43,5 +43,15 @@ function setup() {
  }
 
  // Plant class
+ class Plant {
+  constructor(x,y, h) {
+    this. x = x;
+    this.y = y;
+    this.h = h; // maximum height
+    this.growth = 0; // how much it has grown
+    this.angle = random(TWO_PI); // for swaying
+    this.color = color(random(50,100), random(150,255), random(50,150));
+  }
+ }
 
  }
