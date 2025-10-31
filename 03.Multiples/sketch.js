@@ -3,8 +3,6 @@ function setup() {
   noStroke();
 }
 
-let circles = []; 
-
 //Make 20 circles and store their info in an array
 for (let i = 0; i < 20; i++) 
   circles.push
@@ -14,6 +12,8 @@ for (let i = 0; i < 20; i++)
   , size: random (15, 30) // small varaition
   , color: color(random(100,255), random (100,255), random (255)) 
 });
+
+let circles = [];
 
 
 function draw() {
