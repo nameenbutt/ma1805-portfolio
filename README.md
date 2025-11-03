@@ -2,10 +2,10 @@
 
 https://nameenbutt.github.io/ma1805-portfolio/
 
-[01.Drawing](01.Drawing/index.html)
-[02.Movement](02.Movement/index.html)
-[03.Multiples](03.Multiples/index.html)
-[04.Media](04.Media/index.html)
+[01.Drawing](01.Drawing/sketch.js)
+[02.Movement](02.Movement/sketch.js)
+[03.Multiples](03.Multiples/sketch.js)
+[04.Media](04.Media/sketch.js)
 
 Drawing: I have done coding before but i will still say my skills are quite beginner as i do get confused with my coding quiet a lot. These mini projects was quiet a challenge to me, but i found a solution by watching videos, tutorials and looking at websites to help with my coding. with some of my coding, i did use the help of the VS.code coding that was written on the side. For this prompt, i created an emoji that has a silly face, and i did this by experimenting with my codes, some of them did not work and and my first intial draft did not show up so i did have to ask for a lot of help. I wanted a different look to my emoji but still i wanted that emoji element that you see on our phones. I did enjoy this prompt and i thought it was easier than the prompts. 
 
